@@ -1,1 +1,1 @@
-SELECT * FROM countrylanguage WHERE countrycode = 'VAT'
+SELECT * FROM countrylanguage WHERE countrycode = 'VAT';
