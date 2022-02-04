@@ -28,11 +28,18 @@ countrycode | language | isofficial | percentage
 -------------+----------+------------+------------
 SMR         | Italian  | t          |        100
 
+code |    name    | continent |     region      | surfacearea | indepyear | population | lifeexpectancy |  gnp   | gnpold | localname  | governmentform | headofstate | capital | code2 
+------+------------+-----------+-----------------+-------------+-----------+------------+----------------+--------+--------+------------+----------------+-------------+---------+-------
+SMR  | San Marino | Europe    | Southern Europe |          61 |       885 |      27000 |           81.1 | 510.00 |        | San Marino | Republic       |             |    3171 | SM
 
 -- Clue #4: We're booking the first flight out – maybe we've actually got a chance to catch her this time.
 -- There are only two cities she could be flying to in the country. One is named the same as the country – that
 -- would be too obvious. We're following our gut on this one; find out what other city in that country she might
 --  be flying to.
+
+id  |    name    | countrycode |     district      | population 
+------+------------+-------------+-------------------+------------
+3170 | Serravalle | SMR         | Serravalle/Dogano |       4802
 
 
 

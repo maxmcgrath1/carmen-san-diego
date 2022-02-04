@@ -1,4 +1,4 @@
-SELECT * FROM countrylanguage WHERE language = 'Italian';
+-- SELECT * FROM countrylanguage WHERE language = 'Italian';
 
 -- countrycode | language | isofficial | percentage 
 -- -------------+----------+------------+------------
@@ -23,3 +23,9 @@ SELECT * FROM countrylanguage WHERE countrycode = 'SMR';
 -- countrycode | language | isofficial | percentage 
 -- -------------+----------+------------+------------
 -- SMR         | Italian  | t          |        100
+
+SELECT * FROM country WHERE code = 'SMR';
+
+-- code |    name    | continent |     region      | surfacearea | indepyear | population | lifeexpectancy |  gnp   | gnpold | localname  | governmentform | headofstate | capital | code2 
+-- ------+------------+-----------+-----------------+-------------+-----------+------------+----------------+--------+--------+------------+----------------+-------------+---------+-------
+-- SMR  | San Marino | Europe    | Southern Europe |          61 |       885 |      27000 |           81.1 | 510.00 |        | San Marino | Republic       |             |    3171 | SM
