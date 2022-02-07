@@ -2,8 +2,6 @@
 -- traveling through Southern Europe. She's most likely traveling someplace where she won't be noticed,
 -- so find the least populated country in Southern Europe, and we'll start looking for her there.
 
-SELECT name, code, population FROM country WHERE region = 'Southern Europe' ORDER BY population LIMIT 1;
-
             name              | code | population 
 -------------------------------+------+------------
 Holy See (Vatican City State) | VAT  |       1000
@@ -46,6 +44,14 @@ id  |    name    | countrycode |     district      | population
 -- Clue #5: Oh no, she pulled a switch – there are two cities with very similar names, but in totally different
 -- parts of the globe! She's headed to South America as we speak; go find a city whose name is like the one we were
 -- headed to, but doesn't end the same. Find out the city, and do another search for what country it's in. Hurry!
+
+id  | name  | countrycode |    district    | population 
+-----+-------+-------------+----------------+------------
+65 | Serra | BRA         | Esp�rito Santo |     302666
+
+name  
+--------
+Brazil
 
 
 

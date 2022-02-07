@@ -18,11 +18,6 @@
 -- DEU         | Italian  | f          |        0.7
 -- USA         | Italian  | f          |        0.6
 
-SELECT * FROM countrylanguage WHERE countrycode = 'SMR';
-
--- countrycode | language | isofficial | percentage 
--- -------------+----------+------------+------------
--- SMR         | Italian  | t          |        100
 
 SELECT * FROM country WHERE code = 'SMR';
 
