@@ -1,4 +1,4 @@
--- SELECT * FROM countrylanguage WHERE language = 'Italian';
+SELECT * FROM countrylanguage WHERE language = 'Italian';
 
 -- countrycode | language | isofficial | percentage 
 -- -------------+----------+------------+------------
